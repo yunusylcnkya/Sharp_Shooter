@@ -103,14 +103,16 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.package-validation-suite": {
-      "version": "0.22.0-preview",
+    "com.unity.probuilder": {
+      "version": "file:com.unity.probuilder",
       "depth": 0,
-      "source": "registry",
+      "source": "embedded",
       "dependencies": {
-        "com.unity.nuget.mono-cecil": "0.1.6-preview.2"
-      },
-      "url": "https://packages.unity.com"
+        "com.unity.shadergraph": "17.0.3",
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
     },
     "com.unity.render-pipelines.core": {
       "version": "17.3.0",
@@ -147,6 +149,13 @@
     "com.unity.searcher": {
       "version": "4.9.4",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.settings-manager": {
+      "version": "2.1.1",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
